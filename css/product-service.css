@@ -1,0 +1,52 @@
+.text-title-top h1{
+    font-size: 22px;
+    text-align: center;
+    padding: 30px;
+    margin-top: 12px;
+    border-bottom: 2px solid rgb(49, 48, 48);
+}
+.products{
+    padding: 2%;
+}
+.products .product{
+    text-align: center;
+    width: 32%;
+    padding: 20px;
+    border: 1px solid rgb(49, 48, 48);
+}
+.products .product img{
+    width: 100%;
+}
+
+.products .product .product-name{
+    margin: 15px 0;
+    padding: 10px;
+    border: 1px solid rgb(49, 48, 48);
+}
+.products .product button{
+    padding: 8px 16px;
+    color: #fff;
+    background: rgb(109, 108, 108);
+    border-radius: 8px;
+}
+.products .product .buttons{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.should-be-hidden{
+    opacity: 0;
+    transition: 1s;
+    
+}
+.will-be-hidden{
+    opacity: 1;
+    visibility:visible;
+}
+@media screen and (max-width:768px){
+    .products .product{
+      width: 100%;
+      margin-bottom: 25px;
+    }
+  }
+  

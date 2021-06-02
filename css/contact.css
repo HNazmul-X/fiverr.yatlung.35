@@ -1,0 +1,30 @@
+.text-title-top h1{
+    font-size: 22px;
+    text-align: center;
+    padding: 30px;
+    margin-top: 15px;
+    border-bottom: 2px solid rgb(49, 48, 48);
+}
+.contact-form form{
+    padding: 0 25px;
+    width: 400px;
+    margin: 20px auto;
+
+}
+.contact-form .total-field{
+    margin-bottom: 25px;
+    width: 100%;
+}
+.contact-form .total-field label{
+    margin-bottom: 5px;
+}
+.contact-form .total-field input, .contact-form .total-field textarea{
+    width: 100%;
+    padding: 8px 16px;
+}
+
+@media screen and (max-width: 768px){
+    .contact-form form{
+        width: 100%;    
+    }
+}
